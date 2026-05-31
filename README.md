@@ -38,7 +38,7 @@ A commonly used radial basis function is the Gaussian function:
 $$
 \phi_i(x) =
 \exp\left(
--\frac{\|x-c_i\|^2}{2\sigma_i^2}
+-\frac{\|x-c_i\|^2}{theta_i^2}
 \right)
 $$
 
