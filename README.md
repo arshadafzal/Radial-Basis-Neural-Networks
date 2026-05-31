@@ -38,14 +38,14 @@ A commonly used radial basis function is the Gaussian function:
 $$
 \phi_i(x) =
 \exp\left(
--\theta_i^2 \|x-c_i\|^2
+-\theta^2 \|x-c_i\|^2
 \right)
 $$
 
 where:
 
 - $c_i$ is the center of the radial basis function
-- $\theta_i$ is the shape parameter controlling the width of the radial basis function
+- $\theta$ is the shape parameter controlling the width of the radial basis function
 
 ## Orthogonal Least Squares Learning
 
